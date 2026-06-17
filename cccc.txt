@@ -1,0 +1,15 @@
+basepath: /static-site-generator/
+Deleting docs directory...
+Copying static files to docs directory...
+ * ./static/images -> ./docs/images
+ * ./static/images/tolkien.png -> ./docs/images/tolkien.png
+ * ./static/images/glorfindel.png -> ./docs/images/glorfindel.png
+ * ./static/images/tom.png -> ./docs/images/tom.png
+ * ./static/images/rivendell.png -> ./docs/images/rivendell.png
+ * ./static/index.css -> ./docs/index.css
+Generating page...
+ * ./content/index.md ./template.html -> ./docs/index.html
+ * ./content/blog/glorfindel/index.md ./template.html -> ./docs/blog/glorfindel/index.html
+ * ./content/blog/tom/index.md ./template.html -> ./docs/blog/tom/index.html
+ * ./content/blog/majesty/index.md ./template.html -> ./docs/blog/majesty/index.html
+ * ./content/contact/index.md ./template.html -> ./docs/contact/index.html
