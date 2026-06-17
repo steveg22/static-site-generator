@@ -15,11 +15,7 @@ template_path = "./template.html"
 
 
 def main() -> None:
-    if len(sys.argv) < 2:
-        print("Usage: basepath argument required")
-        exit(1)
-
-    basepath = sys.argv[1]
+    basepath = sys.argv[1] if len(sys.argv) > 1 else "/"
     print("basepath:", basepath)
 
     print("Deleting docs directory...")
